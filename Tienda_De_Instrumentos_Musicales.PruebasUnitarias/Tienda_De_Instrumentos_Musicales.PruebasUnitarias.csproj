@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.3" />
+    <PackageReference Include="coverlet.collector" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.AccesoADatos\Tienda_De_Instrumentos_Musicales.AccesoADatos.csproj" />
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

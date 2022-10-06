@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio", "Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio.csproj", "{DC689C14-8927-4DA8-A2F3-DA9CB6F86B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_De_Instrumentos_Musicales.AccesoADatos", "Tienda_De_Instrumentos_Musicales.AccesoADatos\Tienda_De_Instrumentos_Musicales.AccesoADatos.csproj", "{37B098E3-12C3-4875-B190-8AD1FCED613E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_De_Instrumentos_Musicales.LogicaDeNegocio", "Tienda_De_Instrumentos_Musicales.LogicaDeNegocio\Tienda_De_Instrumentos_Musicales.LogicaDeNegocio.csproj", "{9511D509-ED02-4EFC-948A-8050F0422DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_De_Instrumentos_Musicales.PruebasUnitarias", "Tienda_De_Instrumentos_Musicales.PruebasUnitarias\Tienda_De_Instrumentos_Musicales.PruebasUnitarias.csproj", "{937951C2-1576-478D-8E75-119EA9B4E02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tienda_De_Instrumentos_Musicales.WebAPI", "Tienda_De_Instrumentos_Musicales.WebAPI\Tienda_De_Instrumentos_Musicales.WebAPI.csproj", "{6473FB97-3631-4B1C-8026-BC34D9236BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC689C14-8927-4DA8-A2F3-DA9CB6F86B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC689C14-8927-4DA8-A2F3-DA9CB6F86B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC689C14-8927-4DA8-A2F3-DA9CB6F86B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC689C14-8927-4DA8-A2F3-DA9CB6F86B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B098E3-12C3-4875-B190-8AD1FCED613E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B098E3-12C3-4875-B190-8AD1FCED613E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B098E3-12C3-4875-B190-8AD1FCED613E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B098E3-12C3-4875-B190-8AD1FCED613E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9511D509-ED02-4EFC-948A-8050F0422DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511D509-ED02-4EFC-948A-8050F0422DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9511D509-ED02-4EFC-948A-8050F0422DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9511D509-ED02-4EFC-948A-8050F0422DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937951C2-1576-478D-8E75-119EA9B4E02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937951C2-1576-478D-8E75-119EA9B4E02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937951C2-1576-478D-8E75-119EA9B4E02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937951C2-1576-478D-8E75-119EA9B4E02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6473FB97-3631-4B1C-8026-BC34D9236BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6473FB97-3631-4B1C-8026-BC34D9236BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6473FB97-3631-4B1C-8026-BC34D9236BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6473FB97-3631-4B1C-8026-BC34D9236BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AE7B638-43A0-4455-9D6A-C28AC4E2F4E7}
+	EndGlobalSection
+EndGlobal

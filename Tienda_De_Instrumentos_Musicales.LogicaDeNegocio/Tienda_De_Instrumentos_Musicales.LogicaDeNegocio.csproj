@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.AccesoADatos\Tienda_De_Instrumentos_Musicales.AccesoADatos.csproj" />
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>

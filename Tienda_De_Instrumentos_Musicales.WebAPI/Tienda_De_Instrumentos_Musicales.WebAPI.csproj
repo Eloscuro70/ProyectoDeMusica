@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio\Tienda_De_Instrumentos_Musicales.EntidadesDeNegocio.csproj" />
+    <ProjectReference Include="..\Tienda_De_Instrumentos_Musicales.LogicaDeNegocio\Tienda_De_Instrumentos_Musicales.LogicaDeNegocio.csproj" />
+  </ItemGroup>
+
+</Project>
